@@ -39,7 +39,6 @@ def get_vectorstore_from_url(url):
 #        chunk_size=200,
 #        chunk_overlap=40,
         length_function=len)
-#chunk_size=200)
     document_chunks = text_splitter.split_documents(document)
 
     # create a vectorstore from the chunks
